@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="barracks.png" alt="logo" class="logo" />
+      <nav>
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/younes-safouat-178839270/"
+              target="_blank"
+              >linkden
+            </a>
+          </li>
+          <li><a href="#">about </a></li>
+          <li><a href="#">FAQ </a></li>
+        </ul>
+      </nav>
+      <a href="#"><button class="btn">sevices</button> </a>
+    </header>
+    <main>
+      <div class="container">
+        <form action="/action_page.php">
+          <fieldset>
+            <legend class="form-title">sign-up form</legend>
+            <div class="form-body">
+              <div class="fields">
+                <table>
+                  <tr>
+                    <td><label for="fname">Salution:</label></td>
+                    <td>
+                      <select name="Salution" id="Salution" class="text">
+                        <option value="option1" selected>--None--</option>
+                        <option value="option1">option 1</option>
+                        <option value="option2">option 2</option>
+                        <option value="option3">option 3</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="fname">First name:</label>
+                    </td>
+                    <td>
+                      <input type="text" id="fname" name="fname" class="text" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="lname">Last name:</label>
+                    </td>
+                    <td>
+                      <input type="text" id="lname" name="lname" class="text" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="Gender">Gender :</label>
+                    </td>
+                    <td>
+                      <input
+                        type="radio"
+                        id="male"
+                        name="Gender"
+                        value="male"
+                      />
+                      <label for="Male">Male </label>
+
+                      <input
+                        type="radio"
+                        id="Female"
+                        name="Gender"
+                        value="Female"
+                      />
+                      <label for="Female">Female </label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="email">Email:</label>
+                    </td>
+                    <td>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="text"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="birth">Date of Birth:</label>
+                    </td>
+                    <td>
+                      <input type="date" id="birth" name="birth" class="text" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="adress">Adress:</label><br /></td>
+                    <td>
+                      <textarea
+                        name="adress"
+                        id="adress"
+                        cols="35"
+                        rows="15"
+                        class="text"
+                      >
+                      </textarea>
+                    </td>
+                  </tr>
+                </table>
+
+                <br /><br />
+                <input type="submit" value="Submit" />
+              </div>
+              <div class="side-img">
+                <img src="project.png" alt="camp" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
